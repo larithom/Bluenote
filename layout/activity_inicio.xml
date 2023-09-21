@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51A6FA"
+    tools:context=".Inicio">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:rotation="180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plantas_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plantas_removebg_preview" />
+
+    <TextView
+        android:id="@+id/txtEntrada"
+        android:layout_width="319dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="152dp"
+        android:text="Bem-vinda, Kênia!"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:fontFamily="@font/poppins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTeste"
+        android:layout_width="324dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Teste Nivelador"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="#3356CF"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEntrada"
+        app:strokeColor="#1A35CF"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/btnNiveis"
+        android:layout_width="324dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="Níveis"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="#3356CF"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPerfil"
+        app:strokeColor="#1A35CF"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="324dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="Perfil"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="#3356CF"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTeste"
+        app:strokeColor="#1A35CF"
+        app:strokeWidth="2dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

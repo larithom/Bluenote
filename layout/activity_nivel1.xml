@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51A6FA"
+    tools:context=".Nivel1">
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="154dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/poppins"
+        android:text="Início"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="#ED5323"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnPratica"
+        app:layout_constraintStart_toEndOf="@+id/btnTesteF"
+        app:layout_constraintTop_toBottomOf="@+id/btnPratica"
+        app:strokeColor="#782106"
+        app:strokeWidth="2dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:rotation="180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plantas_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plantas_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="319dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="35dp"
+        android:text="Nível 1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:fontFamily="@font/poppins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <Button
+        android:id="@+id/btnTeoria"
+        android:layout_width="154dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Teoria"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="#FF9800"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:strokeColor="#FF5722"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/btnPratica"
+        android:layout_width="154dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Prática"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="#FF7F0E"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/btnTeoria"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:strokeColor="#FF5722"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/btnTesteF"
+        android:layout_width="154dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/poppins"
+        android:text="Teste final"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="#FF6822"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="@+id/btnTeoria"
+        app:layout_constraintTop_toBottomOf="@+id/btnTeoria"
+        app:strokeColor="#C14018"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
